@@ -1,6 +1,3 @@
-import json
-from django.http import JsonResponse
-from drf_yasg import openapi
 from rest_framework.decorators import api_view
 from rest_framework import status
 from drf_yasg.utils import swagger_auto_schema
